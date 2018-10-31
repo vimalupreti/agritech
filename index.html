@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Company NAME</title>
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+</head>
+
+<body>
+
+		<div id="menubar">
+			<ul class="upper">
+				<li><a href="">HOME</a></li>
+				<li><a href="">SCHEMES</a>
+					<ul>
+						<li><a href="">sch1</a></li>
+						<li><a href="">sch2</a></li>
+						<li><a href="">sch3</a></li>
+						<li><a href="">sch4</a></li>
+
+					</ul>
+				</li>
+
+				<li><a href="">BROWSE</a>
+					<ul>
+						<li><a href="">schreme1</a></li>
+						<li><a href="">sch2</a></li>
+						<li><a href="">sch3</a></li>
+						<li><a href="">sch4</a></li>
+					</ul>
+				</li>
+
+				<li><a href="">ABOUT</a></li>
+				<li><a href="login.html">LOGIN</a></li>
+				<li><a href="">SINUP</a></li>
+			</ul>
+		</div>
+		
+
+
+
+
+
+
+
+
+	<div class="topslideshow">
+
+		<img src="images/slide1.jpg" class="vimal" height="450px" width="100%">
+		<img src="images/slide2.jpg" class="vimal" height="450px" width="100%">
+		<img src="images/slide3.jpg" class="vimal" height="450px" width="100%">
+		<img src="images/slide4.jpg" class="vimal" height="450px" width="100%">
+
+	</div>
+
+	<script>
+		var myIndex = 0;
+		leader();
+
+		function leader(){
+			var i;
+			var x = document.getElementsByClassName("vimal");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(leader, 2000); 
+		}
+	</script>
+
+
+
+<marquee id="float"><p id="mar"><img src="images/gif1.gif" id=""> NEW OFFERS ARE AVAILABLE CLICK ON LOGIN<img src="images/gif1.gif" id=""></p></marquee>
+
+
+
+<fieldset class="field2">
+	<div class="sidebar">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="part1">
+						<center><h1 class="contain">CARD</h1>	</center>
+						<div class="bloc">
+							<center><i class="fa fa-id-card fa-3x" aria-hidden="true"></i>
+							<p>bdcdbcj cdsjb dcbjk cdjk cbb jcjb bcsjb sb 
+							cbjkbzjk bjxb jcb xj cbjxb cbz xcbdjb cd 
+							bcbbzj cb jkj djcb cbjb jcdbk jdcbkj cb</p></center>
+						</div>
+
+					</div>
+				</div>
+
+
+
+				<div class="col-md-4">
+					
+					<div class="div1">
+							
+						<center><h1 class="contain">PARTNERSHIP</h1></center>
+						<div class="bloc">	
+							<center><i class="fa fa-handshake-o fa-3x" aria-hidden="true"></i>
+							<p>bdcdbcj cdsjb dcbjk cdjk cbb jcjb bcsjb sb 
+							cbjkbzjk bjxb jcb xj cbjxb cbz xcbdjb cd 
+							bcbbzj cb jkj djcb cbjb jcdbk jdcbkj cb</p></center>
+						</div>
+					</div>
+				</div>
+				
+
+
+
+				<div class="col-md-4">
+					<div class="part3">
+
+						<center><h1 class="contain">SHOP</h1>	</center>
+						<div class="bloc">
+							<center><i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
+							<p>bdcdbcj cdsjb dcbjk cdjk cbb jcjb bcsjb sb 
+							cbjkbzjk bjxb jcb xj cbjxb cbz xcbdjb cd 
+							bcbbzj cb jkj djcb cbjb jcdbk jdcbkj cb</p></center>
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</fieldset>
+	
+
+<br/><br/><br/>
+
+
+
+
+	<fieldset class="fielddiff">
+		<h1 id="gallery">GALLERY</h1>
+		<div class="wrapper">
+			<div class="box effect1">
+				<img src="images/footer1.jpg" id="imd1" height="300px" width="300px">
+				<div class="text">AMAZING</div>
+			</div>
+
+			<div class="box effect2">
+				<img src="images/footer2.jpg" id="imd1" height="300px" width="300px">
+				<div class="text">AMAZING</div>
+			</div>
+
+			<div class="box effect3">
+				<img src="images/footer3.jpg" id="imd1" height="300px" width="300px">
+				<div class="text">AMAZING</div>
+			</div>
+
+
+			<div class="box effect4">
+				<img src="images/img1.jpg" id="imd1" height="300px" width="300px">
+				<div class="text">AMAZING</div>
+			</div>
+		</div>
+	
+	</fieldset>
+
+
+
+
+
+<br/><br/>
+	<!--<fieldset class="field4">
+		<div class="div3">
+			<p>
+				<img src="images/img1.jpg" id="img3">
+				This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text.<br/>
+				<center>
+					<img src="images/more1.gif" id="more1">&nbsp;&nbsp;<img src="images/more.gif" id="more"> </center>
+				</p>
+		</div>
+	</fieldset>
+
+
+
+
+
+<br/><br/><br/>
+	<fieldset class="field5">
+		<div class="div4">
+			<p>
+				<img src="images/img1.jpg" id="img4">
+				This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text.<br/>
+				<center>
+					<img src="images/more1.gif" id="more1">&nbsp;&nbsp;<img src="images/more.gif" id="more"> </center>
+				</p>
+		</div>
+	</fieldset>
+-->
+
+
+
+
+
+<!--animation given by me-->
+
+<br/><br/><br/>
+<h1 id="works">WORKS</h1>
+	<fieldset class="field6">
+		<div class="div6">
+			<img src="images/footer2.jpg" alt="cycle" id="ghumao" height="344px">
+			<img src="images/footer3.jpg" alt="cycle" id="ghumao1" height="344px">
+		</div>
+	</fieldset>
+
+
+
+
+<br/><br/><br/><br/>
+
+<h1 id="visions">VISIONS</h1>
+<div class="container1">
+	<div class="row">
+		<div class="col-md-6">
+			<img src="images/slide1.jpg" width="400px" height="400px" id="col6">
+			<div class="niche1">
+				<p>sdnn dsnkj dsnsdn dsnk sdnkn sdnlkn sdnln dsnn dsnklnsdl dsnn dsn
+					sdlnldsn dsncl dsnln dsnclnsd dsnl dsnfl dsln dsnl sdn sdnnl dsn
+					dskln dsnn ddsnln dsnfl sdnflnd sndsn  dsl dslsif sdfn dsfnlds n
+				</p>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<img src="images/slide2.jpg" width="400px" height="400px" id="col6">
+			<div class="niche1">
+				<p>sdnn dsnkj dsnsdn dsnk sdnkn sdnlkn sdnln dsnn dsnklnsdl dsnn dsn
+					sdlnldsn dsncl dsnln dsnclnsd dsnl dsnfl dsln dsnl sdn sdnnl dsn
+					dskln dsnn ddsnln dsnfl sdnflnd sndsn  dsl dslsif sdfn dsfnlds n
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<center>
+	<div id="np">
+		<a href="" id="button"><img src="images/previous.gif" id="gif0"></a>&nbsp;&nbsp;
+		<a href="" id="button">1</a>&nbsp;&nbsp;
+		<a href="" id="button">2</a>&nbsp;&nbsp;
+		<a href="" id="button">3</a>&nbsp;&nbsp;
+		<a href="" id="button">4</a>&nbsp;&nbsp;
+		<a href="" id="button"> <img src="images/next.gif" id="gif1"></a>
+	</div>
+</center>
+
+<center><img src="images/farmer.gif" id="farm"></center>
+
+
+
+<!---foootttteeeeerrrrr ooooffff tttthhhhe ppppaaaggge-->
+
+			<div class="atlast">
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3"><br/><br/>
+								<center><i class="fa fa-address-book-o fa-4x" aria-hidden="true"></i></center>
+								<center><p>ddkjn skfg fjjfnbdcbk jbddddb dsnlk dsn</p><br/>
+								dfjnfdkjn,kkcc v ncfd ndfkn dfmjndf  fd vk df <br/>
+								fjdvvjfdj cdj dnlv fdvnl fdnvkj fdnbndk.dfbbdc<br/></center>
+						</div>
+						<div class="col-md-3"><br/><br/>
+							<center><i class="fa fa-user-circle-o fa-4x" aria-hidden="true"></i></center>
+							<p>
+							<center>dsnkknk dcnknkd kncdknkfd kkdnfkn dlfnkn fndk<br/>
+							bbcfbjdb dsnkn dcnk cffd fnksjd hfkdfr josufb <br/>
+							dnffjk fvdnk dcdmk dknkdf fdnjkdf ndfkjn dfk k</center>
+							</p>
+	        			</div>
+						<div class="col-md-3"><br/><br/>
+							<center><i class="fa fa-commenting fa-4x" aria-hidden="true"></i></center>
+							<center><p>dsb dsb dsjfkjsd sdjjkj ds  sdk sdhj sdhbdh<br/>
+							sdknkjcn sd c dfkjndf fdnvn vdnk fvnk dfkgdzk zh<br/>
+							kdfnkn dv n dfkj djnnsd dfnsd fdnoijeu fbusj d<br/></p></center>
+		    			</div>
+						<div class="col-md-3"><br/><br/>
+								<center><i class="fa fa-address-book-o fa-4x" aria-hidden="true"></i></center>
+								<center><p>ddkjn skfg fjjfnbdcbk jbddddb dsnlk dsn</p><br/>
+								dfjnfdkjn,kkcc v ncfd ndfkn dfmjndf  fd vk df <br/>
+								fjdvvjfdj cdj dnlv fdvnl fdnvkj fdnbndk.dfbbdc<br/></center>
+						</div>
+       				 </div>
+				</div>
+
+			</div>
+
+
+</body>
+</html>

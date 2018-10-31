@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<style>
+form 
+{
+    border: 3px solid #f1f1f1;
+}
+
+input[type=username], input[type=password] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button 
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+	cursor: pointer;
+    width: 100%;
+}
+
+.cancelbtn 
+{
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer 
+{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.login_icon
+{
+    width: 20%;
+    border-radius: 25%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+</style>
+<body>
+
+<h2>Login Form</h2>
+
+<form action="">
+  <div class="imgcontainer">
+    <img src="images/login_back.jpg" alt="SAP" class="login_back" width="100" height="100" >
+  </div>
+
+  <div class="container">
+    <label><b>Username</b></label>
+    <input type="username" placeholder="Enter Username" name="uname" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <input type="checkbox" checked="checked"> Remember me<br><br>
+    New User?<a href=SIGNUP.html>Click here</a>
+  </div>
+
+  <div class="container" style="background-color:White">
+    <button type="button" class="cancelbtn" onClick="history.go(-1);return true;">Cancel</button>
+    <span class="psw"><a href="#">Forgot password?</a></span>
+    
+  </div>
+</form>
+</body>
+</html>
+
